@@ -5652,12 +5652,27 @@ description: |
 type: enumlist
 group: 'Runes'
 label: Items
-enum: [
-  "Air rune","Water rune","Earth rune","Fire rune","Cosmic rune",
-  "Chaos rune","Nature rune","Law rune","Death rune","Sunfire rune",
-  "Astral rune","Blood rune","Wrath rune","Mist rune","Dust rune",
-  "Mud rune","Steam rune","Lava rune","Aether rune","Soul rune"
-]
+enum:   
+  - "Air rune"
+  - "Water rune"
+  - "Earth rune"
+  - "Fire rune"
+  - "Cosmic rune"
+  - "Chaos rune"
+  - "Nature rune"
+  - "Law rune"
+  - "Death rune"
+  - "Sunfire rune"
+  - "Astral rune"
+  - "Blood rune"
+  - "Wrath rune"
+  - "Mist rune"
+  - "Dust rune"
+  - "Mud rune"
+  - "Steam rune"
+  - "Lava rune"
+  - "Aether rune"
+  - "Soul rune"
 */
 #define VAR_RUNES_LIST [
 "Air rune","Water rune","Earth rune","Fire rune","Cosmic rune",
