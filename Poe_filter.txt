@@ -5656,4 +5656,24 @@ exampleItem: 'Air rune'
 */
 #define VAR_RUNES_STYLE textColor = "#ff66cc";backgroundColor = "#00000000";borderColor = "#ff66cc";showLootbeam = true;
 
-rule (name: "Air rune","Water rune","Earth rune","Fire rune","Cosmic rune","Chaos rune","Nature rune","Law rune","Death rune","Sunfire rune","Astral rune","Blood rune","Wrath rune","Mist rune","Dust rune","Mud rune","Steam rune","Lava rune","Aether rune","Soul rune") { hidden = false; VAR_RUNES_STYLE }
+/* Appliquer la même règle à chaque rune */
+rule (name:"Air rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Water rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Earth rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Fire rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Cosmic rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Chaos rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Nature rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Law rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Death rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Sunfire rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Astral rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Blood rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Wrath rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Mist rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Dust rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Mud rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Steam rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Lava rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Aether rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name:"Soul rune") { hidden = false; VAR_RUNES_STYLE }
