@@ -5645,7 +5645,7 @@ apply ((tradeable:true || !VAR_VALUE_SHOWUNTRADEABLE) && value:<VAR_VALUE_MINVAL
 hidden: false
 name: 'Runes'
 description: |
-  Highlights all runes with pink text and border.
+  Highlights all runes with pink text and border, transparent background.
 */
 
 /*@ define:input
@@ -5656,24 +5656,24 @@ exampleItem: 'Air rune'
 */
 #define VAR_RUNES_STYLE textColor = "#ff66cc";backgroundColor = "#00000000";borderColor = "#ff66cc";showLootbeam = true;
 
-/* Appliquer la même règle à chaque rune */
-rule (name:"Air rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Water rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Earth rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Fire rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Cosmic rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Chaos rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Nature rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Law rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Death rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Sunfire rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Astral rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Blood rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Wrath rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Mist rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Dust rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Mud rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Steam rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Lava rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Aether rune") { hidden = false; VAR_RUNES_STYLE }
-rule (name:"Soul rune") { hidden = false; VAR_RUNES_STYLE }
+/* Applique le style à chaque rune individuellement */
+rule (name: "Air rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Water rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Earth rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Fire rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Cosmic rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Chaos rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Nature rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Law rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Death rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Sunfire rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Astral rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Blood rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Wrath rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Mist rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Dust rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Mud rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Steam rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Lava rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Aether rune") { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Soul rune") { hidden = false; VAR_RUNES_STYLE }
