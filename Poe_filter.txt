@@ -5649,39 +5649,6 @@ description: |
 */
 
 /*@ define:input
-type: enumlist
-group: 'Runes'
-label: Items
-enum:   
-  - "Air rune"
-  - "Water rune"
-  - "Earth rune"
-  - "Fire rune"
-  - "Cosmic rune"
-  - "Chaos rune"
-  - "Nature rune"
-  - "Law rune"
-  - "Death rune"
-  - "Sunfire rune"
-  - "Astral rune"
-  - "Blood rune"
-  - "Wrath rune"
-  - "Mist rune"
-  - "Dust rune"
-  - "Mud rune"
-  - "Steam rune"
-  - "Lava rune"
-  - "Aether rune"
-  - "Soul rune"
-*/
-#define VAR_RUNES_LIST [
-"Air rune","Water rune","Earth rune","Fire rune","Cosmic rune",
-"Chaos rune","Nature rune","Law rune","Death rune","Sunfire rune",
-"Astral rune","Blood rune","Wrath rune","Mist rune","Dust rune",
-"Mud rune","Steam rune","Lava rune","Aether rune","Soul rune"
-]
-
-/*@ define:input
 type: style
 group: 'Runes'
 label: Items
@@ -5689,4 +5656,4 @@ exampleItem: 'Air rune'
 */
 #define VAR_RUNES_STYLE textColor = "#ff66cc";backgroundColor = "#00000000";borderColor = "#ff66cc";showLootbeam = true;
 
-rule (name:VAR_RUNES_LIST) { hidden = false; VAR_RUNES_STYLE }
+rule (name: "Air rune","Water rune","Earth rune","Fire rune","Cosmic rune","Chaos rune","Nature rune","Law rune","Death rune","Sunfire rune","Astral rune","Blood rune","Wrath rune","Mist rune","Dust rune","Mud rune","Steam rune","Lava rune","Aether rune","Soul rune") { hidden = false; VAR_RUNES_STYLE }
