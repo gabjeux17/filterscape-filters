@@ -5641,6 +5641,8 @@ apply ((tradeable:true || !VAR_VALUE_SHOWUNTRADEABLE) && value:<VAR_VALUE_MINVAL
   hidden = true;
 }
 
+
+/*
 /*@ define:module:runes
 hidden: false
 name: 'Runes'
@@ -5675,3 +5677,4 @@ exampleItem: 'Air rune'
 #define VAR_RUNES_STYLE textColor = "#ff66cc";backgroundColor = "#00000000";borderColor = "#ff66cc";showLootbeam = true;icon = Item(565);
 
 rule (name:VAR_RUNES_LIST) { hidden = false; VAR_RUNES_STYLE }
+*/
