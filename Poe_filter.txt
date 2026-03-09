@@ -5640,10 +5640,3 @@ rule (value:>=VAR_VALUE_T0_VALUE) { VAR_VALUE_T0_CUSTOMSTYLE }
 apply ((tradeable:true || !VAR_VALUE_SHOWUNTRADEABLE) && value:<VAR_VALUE_MINVALUE) {
   hidden = true;
 }
-
-
-
-#define VAR_RUNES_STYLE textColor = "#ff66cc";backgroundColor = "#00000000";borderColor = "#ff66cc";showLootbeam = true;icon = Item(565);
-
-rule (name:VAR_RUNES_LIST) { hidden = false; VAR_RUNES_STYLE }
-
