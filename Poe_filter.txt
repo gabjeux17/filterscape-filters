@@ -5645,7 +5645,7 @@ apply ((tradeable:true || !VAR_VALUE_SHOWUNTRADEABLE) && value:<VAR_VALUE_MINVAL
 hidden: false
 name: 'Runes'
 description: |
-  Highlights all runes with pink text and border, transparent background.
+  Highlights all runes with pink text and border.
 */
 
 /*@ define:input
@@ -5653,17 +5653,17 @@ type: enumlist
 group: 'Runes'
 label: Items
 enum: [
-  "Air rune","Water rune","Earth rune","Fire rune","Cosmic rune",
-  "Chaos rune","Nature rune","Law rune","Death rune","Sunfire rune",
-  "Astral rune","Blood rune","Wrath rune","Mist rune","Dust rune",
-  "Mud rune","Steam rune","Lava rune","Aether rune","Soul rune"
+"Air rune","Water rune","Earth rune","Fire rune","Cosmic rune",
+"Chaos rune","Nature rune","Law rune","Death rune","Sunfire rune",
+"Astral rune","Blood rune","Wrath rune","Mist rune","Dust rune",
+"Mud rune","Steam rune","Lava rune","Aether rune","Soul rune"
 ]
 */
-#define VAR_RUNES_LIST []
-  "Air rune","Water rune","Earth rune","Fire rune","Cosmic rune",
-  "Chaos rune","Nature rune","Law rune","Death rune","Sunfire rune",
-  "Astral rune","Blood rune","Wrath rune","Mist rune","Dust rune",
-  "Mud rune","Steam rune","Lava rune","Aether rune","Soul rune"
+#define VAR_RUNES_LIST [
+"Air rune","Water rune","Earth rune","Fire rune","Cosmic rune",
+"Chaos rune","Nature rune","Law rune","Death rune","Sunfire rune",
+"Astral rune","Blood rune","Wrath rune","Mist rune","Dust rune",
+"Mud rune","Steam rune","Lava rune","Aether rune","Soul rune"
 ]
 
 /*@ define:input
@@ -5672,7 +5672,6 @@ group: 'Runes'
 label: Items
 exampleItem: 'Air rune'
 */
-#define VAR_RUNES_STYLE textColor = "#ff66cc";backgroundColor = "#00000000";borderColor = "#ff66cc";showLootbeam = true;icon = Item(565);
+#define VAR_RUNES_STYLE textColor = "#ff66cc";backgroundColor = "#00000000";borderColor = "#ff66cc";showLootbeam = true;
 
-/* Applique le style aux runes */
 rule (name:VAR_RUNES_LIST) { hidden = false; VAR_RUNES_STYLE }
